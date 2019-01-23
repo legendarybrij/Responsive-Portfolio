@@ -1,2 +1,2 @@
 # Responsive-Portfolio
-Non bootstrap portfolio
+Non bootstrap portfolio, media queries
