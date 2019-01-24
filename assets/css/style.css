@@ -5,16 +5,16 @@
   /*background-color: #777777;*/  
 }
 nav{
-  position:fixed;
-  margin-left: 880px;
-  margin-top:-5px;
+  position:absolute;
+  margin-left: 800px;
+  margin-top:-10px;
   word-spacing: 10px;
   color:#777777;
 
 }
 
 header{
-  margin-left: 100px;
+  margin-left: 20px;
   background: #4aaaa5;
   color:#4aaaa5;
   margin-top:-30px;
@@ -26,7 +26,7 @@ header{
 
 h1{
   position:absolute;
-  margin-left: 120px;
+  margin-left: 50px;
   float:left;
   color:#ffffff;
   margin-top: -10px;
@@ -64,7 +64,7 @@ a{
   height: 460px;
   border-color: #dddddd;
   border-right: 25px solid #ffffff;
-  margin-left: 130px;
+  margin-left: 50px;
   margin-top: 30px; 
   padding-bottom: 80px;
   line-height: 25px;
@@ -255,15 +255,115 @@ p{
     font-size: 18px;
   }
 
-
-  @media screen (max-width s: 980px){
+  @media only screen and (max-width: 980px) {
     
-  }
+    .content, #portfoliocontent {
+      width: 60%;
+      height: 730px;
+    }
+    #contactcontent{
+     height: 500px;
+   }
  
-  @media screen (max-width s: 768px){
+    nav {
+      margin-left: 660px;
+    }
+ 
+    .backbox, #portfoliobackbox {
+     height:900px;
+    }
+ 
+    input {
+     width:565px;
+    }
+ 
+    textarea {
+      width:565px;
+    }
+     
+   }
+ 
+   @media only screen and (max-width: 768px){
+     
+     .content {
+       width: 83%;
+       height: 650px;
+     }
+ 
+     #portfoliocontent {
+       width:83%;
+       height: 740px;
+     }
+ 
+     #contactcontent{
+      height: 500px;
+    }
     
-  }
-
-  @media screen (max-width s: 640px){
+     nav {
+       margin-left: 480px;
+     }
+  
+     .backbox, #portfoliobackbox {
+      height:900px;
+     }
+  
+     input {
+      width:615px;
+     }
+  
+     textarea {
+       width:615px;
+     }
+ 
+ 
+   }
+   
+   @media only screen and (max-width: 640px){
+     
+     .content {
+       width: 83%;
+       height: 760px;
+     }
+ 
+     #portfoliocontent {
+       width:83%;
+       height: 740px;
+     }
+ 
+     #contactcontent{
+      height: 500px;
+    }
     
-  }
+     nav {
+       margin-left: 190px;
+       margin-top: 45px;
+       background-color: #ffffff;
+     }
+ 
+     .headbox {
+       background-color:#ffffff;
+       height:50px;
+     }
+ 
+     header {
+       width:110%;
+       margin-left:-30px;
+       overflow: auto;
+     }
+     h1 {
+       margin-left: 220px;
+       align-content: center;
+     }
+  
+     .backbox, #portfoliobackbox {
+      height:900px;
+     }
+  
+     input {
+      width:510px;
+     }
+  
+     textarea {
+       width:510px;
+     }
+   }
